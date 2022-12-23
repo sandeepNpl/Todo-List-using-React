@@ -1,4 +1,4 @@
-## Simple-TODO-LIST 
+## Simple-TODO-LIST-APP
 ![](./todo-app.gif)
 
 # Getting Started with Create React App
