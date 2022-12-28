@@ -1,3 +1,6 @@
+## Simple-TODO-LIST-APP
+![](./todo-app.gif)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
