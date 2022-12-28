@@ -5,11 +5,16 @@ import { FaPlus,FaTrash } from "react-icons/fa";
 
 
 const TodoList = () => {
-  const refreshState = JSON.parse(localStorage.getItem("todos"));
+  const refreshState = JSON.parse(localStorage.getItem("todos")) ?? []; // if null [] else todos
   const [todoList, setTodoList] = useState([...refreshState]);
   const [text, setText] = useState("");
 
   const addTodo = () => {
+    if(text.trim() == ""){
+      alert("Can't add empty todo");
+      return;
+    }
+
    const newTodo = [
       ...todoList,
       {
